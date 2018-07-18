@@ -6,7 +6,7 @@ import android.text.TextUtils;
 import com.umeng.commonsdk.UMConfigure;
 
 /**
- * 使用多渠道打包后，如果需要加入统计功能则在init方法中的第三个参数，必须如下填写
+ * 使用多渠道打包后，如果需要加入统计功能则在init方法中的第三个参数，必须如下填写(如果不需要统计这个信息也可以填写"unknow")
  * 意思是从meta-data中获取当前的apk的渠道。然后传入友盟后台统计
  */
 public class MyApplication extends Application {
